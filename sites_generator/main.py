@@ -33,7 +33,7 @@ def create_sites_json():
         Body=json.dumps(sites), Key=SITES_OUTPUT_FILENAME, ContentType="application/json",
     )
 
-    return sites 
+    return sites
 
 
 def _gather_data(dirpath: str, visible_sites: List[str] = None) -> Dict[str, List[Dict[str, Any]]]:

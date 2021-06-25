@@ -13,9 +13,6 @@ Each site directory must be included in the `SITES` array in config.yml.
 
 The `global` site is used for the default global dashboard configuration.
 
-The `visible` flag can be used to indicate that a site should be returned from the sites API, but not displayed 
-in the dashboard. It is also set on the `global` site to prevent it from rendering in the dashboard.
-
 ## Usage
 
 ### Manual Execution

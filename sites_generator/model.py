@@ -8,7 +8,6 @@ class Site(BaseModel):
 
     id: constr(min_length=3)
     label: constr(min_length=3)
-    visible: bool
     center: Position
     polygon: Polygon
     bounding_box: BBox
