@@ -1,0 +1,4 @@
+BUCKET: phil-dashboard-datasets
+SITES:
+  - boreal
+  - taiga
